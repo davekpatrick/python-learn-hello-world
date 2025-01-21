@@ -1,0 +1,14 @@
+{
+    "name": "Python 3",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    // https://containers.dev/features
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:1": {
+            "installOhMyZsh": false
+            
+        },
+        "ghcr.io/devcontainers/features/python:1": {
+
+        }
+    }
+}
